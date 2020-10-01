@@ -1,0 +1,28 @@
+{
+    "name": "yosmy/http-record",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/mongo": "@dev",
+        "yosmy/http": "@dev"
+    },
+    "require-dev": {
+        "symsonte/framework": "@dev",
+        "symfony/debug": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\Http\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
